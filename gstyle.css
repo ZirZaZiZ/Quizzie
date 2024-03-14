@@ -1,0 +1,126 @@
+.gevolgen{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #AD9172;
+  }
+  
+.logo {
+    float: left;
+  }
+  
+  #quiz-container {
+    color: #EFD2B2;
+    position: relative;
+    max-width: 600px;
+    top: 50px;
+    margin:auto;
+    padding: 50px;
+    background-color: #6F4E2C;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#options button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #AD9172;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#options button:hover {
+    background-color: #7b6351;
+}
+
+#feedback {
+    margin-top: 20px;
+}
+
+#next-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #ad9172;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#next-btn:hover {
+    background-color: #7b6351;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+#video {
+    opacity: 50%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -99;
+  }
+
+  .text{
+    font-size: 30px;
+    color:#EFD2B2;
+    text-align: center;
+  }
+
+  #open-question-answer {
+    width: 100%;
+    height: 100px; 
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ad9172;
+    border-radius: 5px;
+    }
+    
+    #options button,
+ #open-question-submit-btn,
+ #correct-btn,
+ #wrong-btn {
+ display: block;
+ width: 100%;
+ margin-bottom: 10px;
+ padding: 10px;
+ font-size: 16px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ }
+ 
+ #options button,
+ #correct-btn,
+ #wrong-btn {
+ background-color: #ad9172;
+ color: #fff;
+ }
+ 
+ #options button:hover,
+ #correct-btn:hover,
+ #wrong-btn:hover {
+ background-color: #7b6351;
+ }
